@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: rgb(237, 100, 130);
+    color: blue;
+
+    min-height: 100vh;
+  }
+  form {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  } 
+  button,
+  input {
+    font-size: 24px;
+    border: 0px;
+    outline: 0px;
+    background-color: blue;
+  }
+  button {
+    background-color: green;
+    color: white;
+  }
+
+  .todo-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 10px;
+    min-width: 250px;
+  }
+  .List1 {
+    min-width: 350px;
+    list-style: none;
+  }
+  .todo {
+    margin: 10px;
+    background-color: white;
+    color:black;
+    font-size: 15px;
+    display: flex;
+    height:30px;
+    align-items: left;
+  }
+  .todo li {
+     flex: 1; 
+  }
+  .fa-trash,
+  .fa-check {
+    pointer-events: none;
+  }
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
